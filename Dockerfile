@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # 開発用サーバーを起動するポートを指定
-EXPOSE 3000
+EXPOSE 3001
 
 # アプリケーションを起動
 CMD ["npm", "start"]
